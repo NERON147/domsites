@@ -1,0 +1,56 @@
+
+.menu-icon-wrapper {
+  /*   background: red; */
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu-icon {
+    position: relative;
+    width: 20px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    transition: all ease 0.3s;
+  }
+
+  .menu-icon:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+
+  }
+  
+  .menu-icon::before {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+    transition: all ease 0.3s;
+  }
+
+  .menu-icon:hover::before {
+    background-color: rgba(0, 0, 0, 0.5);
+
+  }
+  
+  .menu-icon::after {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    transition: all ease 0.3s;
+
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+  }
+  
+  .menu-icon:hover::after {
+    background-color: rgba(0, 0, 0, 0.5);
+
+  }

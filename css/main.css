@@ -2,11 +2,13 @@
 
 
 
+
 body {
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
     color: #212121;
     font-weight: 400;
+    
 }
 
 .container {
@@ -866,7 +868,6 @@ body {
 }
 
 .swiper-slide {
-
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -892,12 +893,7 @@ body {
     display: none;
 }
 
-.arrowprew {
-    transform: rotate(-180deg);
-    height: 50px;
-    width: 50px;
 
-}
 
 .arrownext {
     height: 55px;
@@ -1317,6 +1313,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     color: #fff;
+    overflow-x: hidden;
 }
 
 .footer-text1 a {
@@ -1806,5 +1803,9 @@ body {
 
     .createsitenav {
         display: none;
+    }
+
+    .how-container-text img {
+        padding-top: 100px;
     }
 }

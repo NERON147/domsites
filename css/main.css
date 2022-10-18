@@ -13,7 +13,7 @@ body {
 
 .container {
     max-width: 1200px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 
 }
 
@@ -857,6 +857,11 @@ body {
     padding-top: 44px;
 }
 
+.container-swiper {
+    max-width: 1350px;
+
+}
+
 .swiper {
     max-width: 1350px;
     max-height: 420px;
@@ -892,8 +897,6 @@ body {
 .swiper-rtl .swiper-button-prev:after {
     display: none;
 }
-
-
 
 .arrownext {
     height: 55px;
@@ -1443,10 +1446,7 @@ body {
     color: #000;
 }
 
-.offcanvas-body .down {
-    font-weight: 700;
-    font-size: 20px;
-}
+
 
 @media (max-width:1000px) {
     .menu-icon-wrapper {

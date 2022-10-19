@@ -1202,15 +1202,18 @@ body {
     .weapon-container-wrapper {
         display: flex;
         flex-direction: column;
-        
+        margin: 0 auto;
     }
 
     .weapon-button {
         float: none;
         margin-top: 18px;
+        margin-left: 30px;
     }
 
-    .weapon-text-container {}
+    .weapon-text-container {
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1307,6 +1310,17 @@ body {
     background-color: rgba(202, 70, 0, 1);
 }
 
+
+@media (max-width: 830px) {
+    .input-content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .find-input-wrapper {
+        padding-bottom: 20px;
+    }
+}
 
 
 .footer {
